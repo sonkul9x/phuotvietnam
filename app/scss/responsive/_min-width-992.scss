@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+    .container {
+        width: 992px;
+    }
+    footer {
+        padding-right: 15px;
+    }
+    #menu-menu-top>li:last-child>a {
+        padding-left: 57px;
+        padding-right: 57px;
+    }
+    .menu-left {
+        width: 18.35%;
+        margin-top: 0;
+    }
+    .all-content {
+        width: 81.65%;
+        padding-right: 7px;
+    }
+    .content {
+        width: 66%;
+    }
+    .right {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .content-right {
+        width: 32.8%;
+    }
+    .img-banner img {
+        width: 100%;
+        padding-left: 8px;
+        height: 170px;
+    }
+    .right-banner {
+        width: 82.65% !important;
+    }
+    .nav-left>li>a {
+        padding: 4px 5px;
+    }
+    .product-hot {
+        padding-bottom: 5px;
+    }
+}

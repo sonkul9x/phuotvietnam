@@ -1,0 +1,38 @@
+@media only screen and (width: 768px) {
+    .content-right {
+        display: none;
+    }
+}
+
+@media \0screen {
+    body {
+        margin: 0;
+        background: green;
+    }
+    .widget ul>li>a {
+        font-weight: 400;
+    }
+    .post-hot>li {
+        padding: 8px 5px;
+    }
+    .tptn_posts>ul>li {
+        display: inline-block;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (min-width: 0\0) and (min-resolution: 0.001dpcm) {
+    .post-hot>li {
+        padding: 8px 5px;
+    }
+    .product-hot {
+        padding-bottom: 4px;
+    }
+    .widget ul>li {
+        display: inline-table;
+        padding: 9px 0;
+    }
+    .cat-post-widget {
+        padding-bottom: 23px;
+    }
+}

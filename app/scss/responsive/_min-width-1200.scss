@@ -1,0 +1,26 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1007px;
+    }
+    header {
+        .logo {
+            width: 18%;
+        }
+        .banner {
+            width: calc(82% - 10px);
+        }
+    }
+    .left {
+        width: 18%;
+        right: 55%;
+    }
+    .content {
+        left: 18%;
+        width: calc( 55% - 20px);
+    }
+    .right {
+        float: right;
+        width: 27%;
+        display: block;
+    }
+}

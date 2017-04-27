@@ -1,0 +1,44 @@
+@media (min-width: 450px) {
+    .menu-left {
+        width: 100%;
+        float: right;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    #menu-menu-sidebar-left>li {
+        width: 50%;
+        float: left;
+    }
+    .content .widget ul>li:nth-child(5) {
+        border-bottom: none;
+    }
+    .product-item {
+        width: 100%;
+        .post-thumbnail {
+            width: 40%;
+            float: left;
+        }
+        .post-content {
+            width: 60%;
+            float: left;
+        }
+    }
+    .content {
+        .widget ul>li {
+            width: 50%;
+            float: left;
+            min-height: 51px;
+        }
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        float: left;
+    }
+    .post-hot>li:nth-child(4).col-xs-6 {
+        border-bottom: 1px dashed #c5d8ff;
+    }
+    .post-thumbnail a img {
+        height: auto;
+    }
+}

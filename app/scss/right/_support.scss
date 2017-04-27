@@ -1,0 +1,66 @@
+.support {
+    @extend %box;
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        @extend %title_box;
+        line-height: 32px;
+    }
+    .textwidget {
+        position: relative;
+        padding: 9px 10px 12px;
+        p {
+            &:nth-child(4),
+            &:nth-child(5) {
+                border-bottom: 1px dashed #c5d8ff;
+                padding-bottom: 3px;
+                padding-bottom: 12px;
+                padding-top: 3px;
+            }
+            margin-bottom: 0;
+            &:last-child {
+                margin-bottom: 1px;
+                text-align: center;
+            }
+        }
+        .nam-company,
+        .nhan-tin,
+        .map {
+            color: #3b5998;
+            font-weight: bold;
+        }
+        .call-support {
+            text-align: center;
+        }
+        .map {
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .t-phone {
+            width: 100%;
+            text-align: center;
+            padding: 5px 0;
+        }
+        .phone {
+            display: inline-block;
+            background: url(../img/icon.png) no-repeat -155px -243px;
+            padding-left: 81px;
+            color: #f90202;
+            font-weight: 700;
+            padding-top: 0;
+            padding-bottom: 0;
+            line-height: 33px;
+            font-size: 16px;
+            span {
+                display: block;
+            }
+        }
+        .address-company {
+            font-size: 13px;
+        }
+        padding-left: 19px;
+        padding-right: 19px;
+        padding-bottom: 17px;
+        font-size: 13px;
+    }
+}
