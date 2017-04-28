@@ -1,9 +1,5 @@
-header {
-    &.page-header {
-        margin-top: 4px;
-        margin-bottom: 0px;
-        padding: 0px;
-    }
-    @import 'logo';
-    @import 'banner';
+header {    
+    @import 'top';
+    @import 'menu';  
+    @import 'slider';   
 }

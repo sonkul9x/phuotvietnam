@@ -1,0 +1,14 @@
+.top-header{
+	@include background("../images/background-header.jpg",repeat, center center) ;
+	padding:10px;
+	a{
+		padding:10px;
+		display: block;
+		overflow: hidden;
+	}
+	p{
+		padding:10px;
+		font-size:16px;
+		font-family:  'Lobster', cursive;
+	}
+}

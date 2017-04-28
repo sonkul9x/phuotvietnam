@@ -1,0 +1,38 @@
+.menu-header{
+	.navbar{
+		margin-bottom: 0;
+	}
+	.navbar-default {
+  		.navbar-brand {    
+	    font-family:'Lobster', cursive;
+	    color: #fff;
+	    font-size: 25px;	
+ 	 }
+  .navbar-nav{
+  		 
+		> li{
+			> a{
+				text-transform: uppercase;
+				padding-left: 40px;
+				padding-right:40px;
+			}
+		}
+		> .active {
+			 > a {
+			 	background: #1d5a21;
+				color:#fff;
+			 }
+			 &:hover{
+			 	background: #1d5a21;
+				color:#fff;
+			 }	
+			 &:focus{
+			 	background: #1d5a21;
+				color:#fff;
+			 }	 
+			
+  		 }
+ 	 }   
+
+  }
+}

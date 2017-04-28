@@ -18,7 +18,11 @@ a, a:hover { text-decoration: none; color:inherit}
 a, img, input, select{transition:all 0.3s linear}
 b, strong{font-family:'Roboto Condensed';font-weight:700;}
 
+
+
+
 $url_icon:"../images/icon.png";
+
 @mixin box($border, $border-radius, $padding) {
     border: $border;
     border-radius: $border-radius;
