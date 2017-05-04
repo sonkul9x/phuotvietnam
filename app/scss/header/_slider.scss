@@ -1,18 +1,24 @@
 .slidershow{
     .carousel { 
+
     .carousel-inner{  
         .item {      
+          height: 439px;
         background-color: #777;
           img {
-          position: absolute;
+        //  position: absolute;
+        max-height: 439px;
           top: 0;
           left: 0;
           min-width: 100%;      
         }
         .carousel-caption {
-          background: rgba(255, 255, 255, 0.5);
+          background: rgba(255, 255, 255, 0.6);
           h3{
              color: #1d5a21;
+          }
+          p{
+            color: #000;
           }
         }
       }
