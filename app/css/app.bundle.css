@@ -6022,6 +6022,15 @@ header .slidershow .carousel .carousel-inner .item {
     header .slidershow .carousel .carousel-inner .item .carousel-caption p {
       color: #000; }
 
+#search {
+  padding: 10px;
+  text-align: center; }
+  #search form .search-field {
+    width: 500px;
+    padding: 5px 10px; }
+  #search form .search-submit {
+    background: #fff; }
+
 .left {
   padding: 0px; }
   .left .menu {
