@@ -1,66 +1,58 @@
-.page-footer {
-    padding: 0px;
-    background: #45b43d;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    &>div {
-        &:first-child {
-            background: #fff;
-            margin: 5px 5px 5px 5px;
-            padding: 0px;
-            width: calc(100% - 10px);
+#footer{
+    background: $mau1;
+    color:#fff;
+    padding: 20px 0;
+    text-align: center;
+    .info-mation{
+        h1{
+            font-family: 'Roboto Condensed', Times, serif;
+            font-weight: 500;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid $mau3;
             display: inline-block;
-            &>div {
-                font-size: 13.4px;
-                line-height: 17px;
-                padding: 7px 10px 7px 10px;
-                text-align: justify;
-                &:first-child {
-                    h4 {
-                        font-size: 16px;
-                        font-weight: bold;
-                        margin: 0px;
-                    }
-                }
-                &:last-child {
-                    padding: 7px 20px 3px 10px;
-                    &>div {
-                        display: inline-block;
-                        a {
-                            display: inline-block;
-                            width: 26px;
-                            height: 25px;
-                            text-indent: -9999px;
-                            &:first-child {
-                                @include background($url_icon, no-repeat, -2px -306px);
-                            }
-                            &:nth-child(2) {
-                                @include background($url_icon, no-repeat, -30px -306px);
-                            }
-                            &:nth-child(3) {
-                                @include background($url_icon, no-repeat, -2px -335px);
-                            }
-                            &:nth-child(4) {
-                                @include background($url_icon, no-repeat, -30px -335px);
-                            }
-                            &:last-child {
-                                width: 130px;
-                                @include background_nested($url_icon, -367px, -392px, 50px -417px, no-repeat);
-                            }
-                        }
-                    }
-                }
+            line-height: 40px;
+        }
+        p{
+            padding: 0;
+        }
+        div{
+            a{
+                margin: 0 3px;
             }
         }
-        &:last-child {
-            margin-top: -5px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff;
-            text-align: center;
-            line-height: 35px;
-            @include gradient(top, to bottom, #389131, #389131, 2%, #45b43d);
-            @include border-radius(0px, 0px, 4px, 4px);
+    }
+    .social{
+        margin: 0 41%;
+        li{
+            float: left;
+           margin-right: 20px;
+            a{
+                width: 37px;
+            height: 37px;
+            display: block;
+             text-indent: -9999px;
+            background: url(../images/social.png) no-repeat 0 0;
+            
+            }
+            &:nth-child(2){
+            a{
+                background-position-x:-41px;
+            }
+        
         }
+            &:nth-child(3){
+                a{
+                    background-position-x:-80px;
+                }
+            }
+         &:nth-child(4){
+             margin-right: 0;   
+            a{
+                background-position-x:-121px;
+            }
+        }
+        }
+        
     }
 }

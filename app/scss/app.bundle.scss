@@ -20,7 +20,9 @@ b, strong{font-family:'Roboto Condensed';font-weight:700;}
 
 
 
-
+$mau1: #045309;
+$mau2: #1d5a21;
+$mau3: #418c46;
 $url_icon:"../images/icon.png";
 
 @mixin box($border, $border-radius, $padding) {
@@ -98,8 +100,7 @@ $url_icon:"../images/icon.png";
 
 @import "header/header";
 @import "search/search";
-@import "left/left";
 @import "content/content";
-@import "right/right";
-// @import "footer/footer";
+@import "content/category";
+ @import "footer/footer";
 @import "responsive/responsive";

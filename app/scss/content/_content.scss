@@ -1,32 +1,6 @@
-/* content.scss */
-
-.content {
-    padding: 0px;
-    margin: 0px 10px;
-    @import "category";
-    @import "post-special";
+#main-content {    
+    @import 'cat-box';
+    @import 'archive-box';   
+    @import 'video';     
+    @import 'thuvienanh'
 }
-
-// .page-content {
-//     margin-bottom: 0px;
-// }
-// .content {
-//     padding: 0px 10px;
-//     margin-bottom: 0px;
-//     section {
-//         background: white;
-//         padding-bottom: 0px !important;
-//         @include box(1px solid #9ad296, 4px, 10px);
-//         @import "category";
-//         @import "question";
-//         @import "product";
-//         @import "../right/newpaper";
-//         @import "../right/post-host";
-//         @import 'extend';
-//     }
-//     @import "page_detail";
-//     
-//     @import "page_agency";
-//     @import "page_product";
-//     @import "page_404";
-// }

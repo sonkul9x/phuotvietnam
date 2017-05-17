@@ -1,13 +1,20 @@
 #search{
 	padding:10px;
 	text-align:center;
+	border-bottom:1px solid $mau2;
 	form{
 		.search-field{
 			width: 500px;
-			padding:5px 10px;
+			padding:7px 10px;
+			border:1px solid $mau2;
 		}
 		.search-submit{
-			background: #fff;
+			background: $mau3;
+			border:1px solid $mau2;
+			border-radius:4px;
+			padding:7px 20px;
+			color: #fff;
+			text-transform: uppercase;
 		}
 	}
 }

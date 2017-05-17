@@ -1,0 +1,51 @@
+.thuvienanh-box{
+	margin-bottom: 20px;
+	h2 {
+	 width:100%; 
+	 text-align:center; 
+	 border-bottom: 1px solid $mau1; 
+	 line-height:0.1em; 
+	 margin:10px 0 20px;
+	 span { 
+	 	color:$mau3;
+	 	background:#fff; 
+	 	padding:0 10px; 
+	 }
+  } 
+  .tva-content{
+      li{
+        position: relative;
+        padding: 5px;
+        > a{
+           
+            text-align: center;
+            img{
+                width: 100%;
+            }
+        }
+        h4,span{
+            position: absolute;
+            top: 45%;
+            left:5px;
+            background: rgba(255, 255, 255, 0.5);
+            width: calc(100% - 10px);
+            font-size: 15px;
+            text-align: center;
+            a{                
+                text-align: center;
+                color: $mau2;
+                font-family: "Roboto Condensed"
+            }
+        }
+        span{
+            height: 100%;
+            top:0;
+            padding-top: 45%;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+      }
+
+  }
+}
